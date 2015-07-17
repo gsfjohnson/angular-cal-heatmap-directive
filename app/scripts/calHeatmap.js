@@ -19,6 +19,9 @@ angular.module('calHeatmap', []).directive('calHeatmap', function () {
         };
         angular.extend(defaults, config);
         cal.init(defaults);
+        scope.$watchCollection('config.data', function(newValue) {
+            cal.update(newValue);
+        } );          
     }
     return {
         template: '<div class="cal-heatmap" config="config"></div>',
