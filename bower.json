@@ -1,6 +1,6 @@
 {
   "name": "angular-cal-heatmap-directive-async",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "dependencies": {
     "angular": "1.x",
     "cal-heatmap": "~3.4.0"
