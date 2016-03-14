@@ -1,9 +1,9 @@
 {
   "name": "angular-cal-heatmap-directive-async",
-  "version": "1.5",
+  "version": "1.5.3",
   "dependencies": {
     "angular": "1.x",
-    "cal-heatmap": "~3.5.4"
+    "cal-heatmap": "3.5.x"
   },
   "devDependencies": {
     "angular-mocks": "~1.x",
